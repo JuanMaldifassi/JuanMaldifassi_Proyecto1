@@ -8,7 +8,7 @@ package juanmaldifassi_proyecto1;
  *
  * @author juanp
  */
-public class JuanMaldifassi_Proyecto1 {
+public class Main {
 
     /**
      * @param args the command line arguments

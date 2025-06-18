@@ -10,4 +10,16 @@ package Functions;
  */
 public class Helpers {
     
+    private boolean validarLetras(String letra){
+        return letra.matches("[a-zA-Zñ]*");
+    }
+    
+    public String validarPalabra(String palabra){
+        if(validarLetras(palabra)){
+            return palabra;
+        }else{
+            return null;
+        }
+    }
+    
 }
