@@ -4,6 +4,7 @@
  */
 package juanmaldifassi_proyecto1;
 
+import Interfaces.Welcome;
 /**
  *
  * @author juanp
@@ -14,7 +15,7 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+    Welcome v1 = new Welcome();// TODO code application logic here
     }
     
 }
